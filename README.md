@@ -15,12 +15,13 @@ You're all set! Enjoy!
 
 ## Shortcuts
 
-`<Leader>` is defined as the `\` key by default. `C-x` means Control + x and `M-x` means Meta-x. (*alt* or *option* in modern keyboards)
+`<Leader>` is defined as the `\` key by default. `C-x` means Control + x and `M-x` means Meta-x. (*alt* or *option* in modern keyboards) `S-x` means Shift-x.
 
 * `<Leader>y`: Copy to system clipboard
 * `<Leader>d`: Cut to system clipboard
 * `<Leader>p`: Paste below, from system clipboard
 * `<Leader>P`: Paste above, from system clipboard
+* `<F5><F5>`: Toggle paste mode. (Not important if you're using the shortcuts above.)
 * `<F5>`: Reload Vim settings
 * `<Leader>n`: New empty tab.
 * `<Space>x`: Remove search highlight.
@@ -29,8 +30,11 @@ You're all set! Enjoy!
 * `<Tab>`: Buffer list (Normal Mode)
 * `C-p`: Fuzzy finder
 * ``<Leader>` ``: Swap the positions of the open splits
+* `S-w`: Next sub-word in a camel cased word
+* `S-b`: Previous sub-word in a camel cased word
+* `S-e`: End of sub-word in a camel cased word
 
-Other functions should work as expected. You can define key mappings for your own usage by editing the file `~/.vim/vimrc`, and you are certainly encouraged to do so. That's how you can get the most of Vim.
+Other functions should work as expected. You can define key mappings for your own usage by editing the file `~/.vim/vimrc`, and you are certainly encouraged to do so. That's how you can get the most out of Vim.
 
 ## Screenshots
 
