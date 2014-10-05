@@ -173,10 +173,6 @@ vmap y ygv<Esc>
 "Reload vimrc
 nmap <F5> :source ~/.vimrc<CR>
 
-"New line before/after the current line without going into insert mode
-nnoremap <silent><F8> :set paste<CR>m`o<Esc>``:set nopaste<CR>
-nnoremap <silent><F9> :set paste<CR>m`O<Esc>``:set nopaste<CR>
-
 "New Tab
 nmap <Leader>n :tabnew<CR>
 
