@@ -37,7 +37,6 @@ call vundle#end()            " required
 " }}}
 
 " Plugin Settings {{{
-let g:solarized_termcolors=256
 let g:windowswap_map_keys = 0 "prevent default bindings
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 " }}}

@@ -33,6 +33,7 @@ You're all set! Enjoy!
 * `<Space>w`: Next sub-word in a camel cased word
 * `<Space>b`: Previous sub-word in a camel cased word
 * `<Space>e`: End of sub-word in a camel cased word
+* `C-n`: Add the next occurrence of the selection to the multiple cursor selection
 
 Other functions should work as expected. You can define key mappings for your own usage by editing the file `~/.vim/vimrc`, and you are certainly encouraged to do so. That's how you can get the most out of Vim.
 
