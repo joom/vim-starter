@@ -30,9 +30,9 @@ You're all set! Enjoy!
 * `<Tab>`: Buffer list (Normal Mode)
 * `C-p`: Fuzzy finder
 * ``<Leader>` ``: Swap the positions of the open splits
-* `S-w`: Next sub-word in a camel cased word
-* `S-b`: Previous sub-word in a camel cased word
-* `S-e`: End of sub-word in a camel cased word
+* `<Space>w`: Next sub-word in a camel cased word
+* `<Space>b`: Previous sub-word in a camel cased word
+* `<Space>e`: End of sub-word in a camel cased word
 
 Other functions should work as expected. You can define key mappings for your own usage by editing the file `~/.vim/vimrc`, and you are certainly encouraged to do so. That's how you can get the most out of Vim.
 

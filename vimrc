@@ -184,9 +184,9 @@ vnoremap > ><CR>gv
 vnoremap < <<CR>gv
 
 " "Camel case motion (with shift)
-map <S-W> <Plug>CamelCaseMotion_w
-map <S-B> <Plug>CamelCaseMotion_b
-map <S-E> <Plug>CamelCaseMotion_e
+map <Space>w <Plug>CamelCaseMotion_w
+map <Space>b <Plug>CamelCaseMotion_b
+map <Space>e <Plug>CamelCaseMotion_e
 " }}}
 
 colorscheme wombat256mod
