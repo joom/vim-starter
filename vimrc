@@ -4,6 +4,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/vundle'
 
+Plugin 'scrooloose/nerdtree'
+Plugin 'bling/vim-airline'
 Plugin 'bkad/CamelCaseMotion'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
@@ -42,7 +44,6 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 " }}}
 
 " Airline {{{
-Plugin 'bling/vim-airline'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 0 "change 0 to 1 if you have a powerline font
 set laststatus=2
@@ -50,7 +51,6 @@ set t_Co=256
 " }}}
 
 " NERDTree {{{
-Plugin 'scrooloose/nerdtree'
 let g:NERDTreeMapChangeRoot =  "`"
 
 nmap <Leader>] :NERDTreeTabsToggle<CR>
@@ -148,9 +148,6 @@ nmap <Tab> :CtrlPBuffer<CR>
 nmap <Leader>f :CtrlPLine<CR>
 nnoremap <silent> <Leader>sw :call WindowSwap#EasyWindowSwap()<CR>
 nmap <Leader>` :call WindowSwap#EasyWindowSwap()<CR><Leader>[:call WindowSwap#EasyWindowSwap()<CR>
-
-" Shift-tab
-imap <S-Tab> <Esc><<i
 
 "for unhighlighing the selections
 nmap <Space>x :let @/=''<CR>
