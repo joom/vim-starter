@@ -36,6 +36,8 @@ You're all set! Enjoy!
 
 Other functions should work as expected. You can define key mappings for your own usage by editing the file `~/.vim/vimrc`, and you are certainly encouraged to do so. That's how you can get the most out of Vim.
 
+If you're looking for a quick tutorial to learn Vim, "[Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)" is a great one.
+
 ## Screenshots
 
 ![Screenshot 1](http://i.imgur.com/qEkXK9m.png)
