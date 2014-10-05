@@ -15,7 +15,7 @@ You're all set! Enjoy!
 
 ## Shortcuts
 
-<Leader> is defined as the `\` key by default. `C-x` means Control + x and `M-x` means Meta-x. (*alt* or *option* in modern keyboards)
+`<Leader>` is defined as the `\` key by default. `C-x` means Control + x and `M-x` means Meta-x. (*alt* or *option* in modern keyboards)
 
 * `<Leader>y`: Copy to system clipboard
 * `<Leader>d`: Cut to system clipboard
