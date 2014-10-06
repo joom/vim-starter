@@ -1,7 +1,7 @@
 vim-starter
 ===========
 
-Minimal starter kit for Vim beginners.
+Quick starter kit for Vim beginners, including features from modern editors that you might miss when you switch to Vim.
 
 ## Installation
 
