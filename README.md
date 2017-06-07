@@ -39,6 +39,8 @@ Other functions should work as expected. You can define key mappings for your ow
 
 If you're looking for a quick tutorial to learn Vim, "[Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)" is a great one.
 
+If copying and pasting with the system clipboard are not working properly, check [this page](http://vim.wikia.com/wiki/Accessing_the_system_clipboard).
+
 ## Screenshots
 
 ![Screenshot 1](http://i.imgur.com/qEkXK9m.png)
